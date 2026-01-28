@@ -1,5 +1,5 @@
-from preprocessing.preprocessing import Preprocessor
+# src/main.py
+from preprocessing.preprocess import run_pipeline
 
 if __name__ == "__main__":
-    preprocessor = Preprocessor(raw_path="data/raw/creditcard.csv")
-    preprocessor.run()
+    run_pipeline()
